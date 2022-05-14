@@ -1,0 +1,76 @@
+/*media querys*/
+@media screen and (max-width: 1023px) {
+    .haeder {
+        display: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .haeder {
+        display: block;
+        text-align: center;
+    }
+
+    .nav__lista {
+        display: none;
+        flex-direction: column;
+    }
+
+    .titulo__principal {
+        text-align: center;
+    }
+
+    .nav {
+        display: none;
+
+    }
+
+    #lateral {
+        background-color: beige;
+        display: block;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 100%;
+        transition: left 1s;
+    }
+
+    #lateral:target {
+        left: 0%;
+    }
+
+
+    .header__open {
+        display: block;
+        font-size: 20px;
+        text-decoration: none;
+        color: beige;
+
+    }
+
+    .contenedor__imagen {
+        flex-direction: column;
+
+    }
+
+
+
+
+    .grid {
+        display: none;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+
+
+}
