@@ -15,11 +15,11 @@ body {
   background: linear-gradient(to right, #141517, #6A9113);
 }
 
-.titulo__principal {
+.header .titulo__principal {
   color: beige;
 }
 
-.nav {
+.header .nav {
   display: flex;
   justify-content: flex-end;
   background: #6A9113;
@@ -27,20 +27,20 @@ body {
   background: linear-gradient(to right, #141517, #6A9113);
 }
 
-.nav__lista {
+.header .nav__lista {
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
-.nav__item {
+.header .nav__item {
   list-style: none;
   display: inline-flex;
   font-size: 30px;
 }
 
-.nav__enlase {
+.header .nav__enlase {
   text-decoration: none;
   color: beige;
   padding: 10px;
@@ -52,7 +52,7 @@ body {
   color: beige;
 }
 
-.presentacion__subtitulo {
+.presentacion .presentacion__subtitulo {
   color: beige;
   text-align: center;
 }
@@ -78,7 +78,7 @@ body {
   }
 }
 
-.contenedor__imagen {
+.imagen__inicio .contenedor__imagen {
   position: relative;
   align-items: center;
   display: flex;
@@ -87,7 +87,7 @@ body {
   object-fit: cover;
 }
 
-.texto__imagen {
+.imagen__inicio .texto__imagen {
   color: beige;
   position: absolute;
   left: 54%;
@@ -130,30 +130,30 @@ main p {
   justify-content: flex-start;
 }
 
-.footer__titulo {
+.footer .footer__titulo {
   color: beige;
   text-align: end;
   font-size: 10px;
 }
 
-.footer__subtitulo {
+.footer .footer__subtitulo {
   color: beige;
   font-size: 20px;
 }
 
-.iconos {
+.footer .iconos {
   display: flex;
 }
 
-.iconos i {
+.footer .iconos i {
   padding-left: 10px;
 }
 
-.footer__contacto {
+.footer .footer__contacto {
   margin: 5px;
 }
 
-.main__imagen2 {
+.footer .main__imagen2 {
   width: 500px;
   height: 500px;
 }
@@ -171,41 +171,41 @@ main p {
   grid-template-areas: "ele1 ele2 ele2" "ele3 ele3 ele4" "ele5 ele6 ele4";
 }
 
-.grid__hijo {
+.grid .grid__hijo {
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.grid__imagen {
+.grid .grid__imagen {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.grid__hijo--1 {
+.grid .grid__hijo--1 {
   grid-area: ele1;
   display: flex;
 }
 
-.grid__hijo--2 {
+.grid .grid__hijo--2 {
   grid-area: ele2;
 }
 
-.grid__hijo--3 {
+.grid .grid__hijo--3 {
   grid-area: ele3;
 }
 
-.grid__hijo--4 {
+.grid .grid__hijo--4 {
   grid-area: ele4;
 }
 
-.grid__hijo--5 {
+.grid .grid__hijo--5 {
   grid-area: ele5;
 }
 
-.grid__hijo--6 {
+.grid .grid__hijo--6 {
   grid-area: ele6;
 }
 
@@ -216,7 +216,7 @@ main p {
   font-weight: bold;
 }
 
-.preguntas__respuestas {
+.preguntas .preguntas__respuestas {
   margin: 0px;
   color: beige;
   font-weight: bolder;

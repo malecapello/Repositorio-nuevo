@@ -1,7 +1,7 @@
 /*pagina de inicio*/
 
 body {
-    background-color:darkolivegreen;
+    background-color: $color-principal;
     font-family: 'Bad Script',
         cursive;
 }
@@ -16,52 +16,47 @@ body {
     background: #6A9113;
     background: -webkit-linear-gradient(to right, #141517, #6A9113);
     background: linear-gradient(to right, #141517, #6A9113);
-}
+
+ .titulo__principal {
+        color: beige;
 
 
-.titulo__principal {
-    color: beige;
+    }
+
+  .nav {
+            display: flex;
+            justify-content: flex-end;
+            background: #6A9113;
+            background: -webkit-linear-gradient(to right, #141517, #6A9113);
+            background: linear-gradient(to right, #141517, #6A9113);
     
+        }
 
+  .nav__lista {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+    
+    
+        }
+
+
+ .nav__item {
+            list-style: none;
+            display: inline-flex;
+            font-size: 30px;
+    
+        }
+  .nav__enlase {
+    
+            text-decoration: none;
+            color: beige;
+            padding: 10px;
+    
+    
+        }
 }
-
-.nav {
-    display: flex;
-    justify-content: flex-end;
-    background: #6A9113;
-    background: -webkit-linear-gradient(to right, #141517, #6A9113);
-    background: linear-gradient(to right, #141517, #6A9113);
-
-}
-
-
-.nav__lista {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-
-
-}
-
-
-.nav__item {
-    list-style: none;
-    display: inline-flex;
-    font-size: 30px;
-
-}
-
-.nav__enlase {
-
-    text-decoration: none;
-    color: beige;
-    padding: 10px;
-
-
-}
-
-
 
 .presentacion {
     text-align: center;
@@ -69,13 +64,14 @@ body {
     color: beige;
 
 
+    .presentacion__subtitulo {
+            color: beige;
+            text-align: center;
+    
+        }
 }
 
-.presentacion__subtitulo {
-    color: beige;
-    text-align: center;
 
-}
 
 
 .imagen__inicio {
@@ -86,49 +82,50 @@ body {
     animation-iteration-count: 2;
     animation-delay: 2s;
 
-}
-
 @keyframes efecto {
-    0% {
-        transform: rotate(0deg);
+        0% {
+            transform: rotate(0deg);
+        }
+
+        50% {
+            transform: rotate(180deg);
+        }
+
+        100% {
+            transform: rotate(0deg);
+        }
+
     }
 
-    50% {
-        transform: rotate(180deg);
-    }
-
-    100% {
-        transform: rotate(0deg);
-    }
+        .contenedor__imagen {
+            position: relative;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            object-fit: cover;
+    
+    
+    
+    
+    
+        }
+ .texto__imagen {
+            color: beige;
+            position: absolute;
+            left: 54%;
+            bottom: 15%;
+            transform: translate(-54%);
+            line-height: 1.2;
+            font-size: 10px;
+    
+    
+        }
 
 }
 
 
-.contenedor__imagen {
-    position: relative;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    object-fit: cover;
 
-
-
-
-
-}
-
-.texto__imagen {
-    color: beige;
-    position: absolute;
-    left: 54%;
-    bottom: 15%;
-    transform: translate(-54%);
-    line-height: 1.2;
-    font-size: 10px;
-
-
-}
 
 
 main p {
