@@ -32,7 +32,7 @@
     }
 
     #lateral {
-        background-color: beige;
+        background-color: $color-texto;
         display: block;
         width: 80%;
         height: 100vh;
@@ -52,7 +52,7 @@
         display: block;
         font-size: 20px;
         text-decoration: none;
-        color: beige;
+        color: $color-texto;
 
     }
 

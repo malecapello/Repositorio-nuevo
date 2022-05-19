@@ -18,7 +18,7 @@ body {
     background: linear-gradient(to right, #141517, #6A9113);
 
  .titulo__principal {
-        color: beige;
+        color: $color-texto;
 
 
     }
@@ -31,6 +31,10 @@ body {
             background: linear-gradient(to right, #141517, #6A9113);
     
         }
+
+   .table-hover {
+       color:orange;
+   }
 
   .nav__lista {
             list-style: none;
@@ -51,7 +55,7 @@ body {
   .nav__enlase {
     
             text-decoration: none;
-            color: beige;
+            color: $color-texto;
             padding: 10px;
     
     
@@ -61,11 +65,11 @@ body {
 .presentacion {
     text-align: center;
     font-size: 20px;
-    color: beige;
+    color: $color-texto;
 
 
     .presentacion__subtitulo {
-            color: beige;
+            color: $color-texto;
             text-align: center;
     
         }
@@ -111,7 +115,7 @@ body {
     
         }
  .texto__imagen {
-            color: beige;
+            color: $color-texto;
             position: absolute;
             left: 54%;
             bottom: 15%;
@@ -129,5 +133,5 @@ body {
 
 
 main p {
-    color: beige;
+    color: $color-texto;
 }

@@ -5,7 +5,7 @@
     justify-content: flex-start;
    
     .footer__titulo {
-            color: beige;
+            color: $color-texto;
             text-align: end;
             font-size: 10px;
     
@@ -13,7 +13,7 @@
         }
 
      .footer__subtitulo {
-            color: beige;
+            color: $color-texto;
             font-size: 20px;
     
         }

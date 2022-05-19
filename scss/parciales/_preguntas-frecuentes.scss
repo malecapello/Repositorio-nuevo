@@ -1,12 +1,12 @@
 /*preguntas frecuentes*/
 .preguntas {
-    color: beige;
+    color: $color-texto;
     margin: 0px;
     font-weight: bold;
 
 .preguntas__respuestas {
             margin: 0px;
-            color: beige;
+            color: $color-texto;
             font-weight: bolder;
     
         }

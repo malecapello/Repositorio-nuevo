@@ -27,6 +27,10 @@ body {
   background: linear-gradient(to right, #141517, #6A9113);
 }
 
+.header .table-hover {
+  color: orange;
+}
+
 .header .nav__lista {
   list-style: none;
   display: flex;
