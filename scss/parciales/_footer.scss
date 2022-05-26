@@ -24,11 +24,18 @@
         }
       .iconos i {
             padding-left: 10px;
+            width: 10px;
+            height: 10px;
         }
 
      .footer__contacto {
             margin: 5px;
+           
         }
+
+    .enlase__contacto   {
+        color:darkorange;
+    }
 
         .main__imagen2 {
     width: 500px;
@@ -37,5 +44,22 @@
 
 }
 
+/*Declarando mapa*/
+
+$redes: (
+    facebook: blue,
+    instagram: blueviolet,
+    whatsapp: green,
+);
+
+/*each y mapas*/
+
+@each $clave, $valor in $redes {
+    .btn-#{$clave} {
+        background-color: $valor;
+
+    }
+
+}
 
 

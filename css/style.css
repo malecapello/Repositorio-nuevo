@@ -26,11 +26,14 @@ body {
 }
 
 
+
 .titulo__principal {
     color: beige;
 
 
 }
+
+
 
 .nav {
     display: flex;
@@ -67,7 +70,7 @@ body {
 
 
 }
-
+ 
 
 
 .presentacion {
@@ -195,15 +198,26 @@ main p {
 
 .iconos {
     display: flex;
+   
 
 }
 
 .iconos i {
     padding-left: 10px;
+   
 }
 
 .footer__contacto {
     margin: 5px;
+    
+}
+
+.enlase__contacto   {
+    color:darkorange;
+}
+
+.enlase__contacto:hover{
+    color:darkred;
 }
 
 .main__imagen2 {

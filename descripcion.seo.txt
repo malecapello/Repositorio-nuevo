@@ -1,0 +1,3 @@
+Descripcion de las implementaciones del Seo en el proyecto.
+1.Agregue las etiquetas meta=kywords y meta=descrption, dentro del head, a cada unos de los archivos HTML.
+2. Realice el mapa de sitio, generando archivos con las rutas directas, y agregue el archivos al editor de texto. 

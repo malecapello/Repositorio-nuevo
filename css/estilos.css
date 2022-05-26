@@ -28,7 +28,7 @@ body {
 }
 
 .header .table-hover {
-  color: orange;
+  color: orangered;
 }
 
 .header .nav__lista {
@@ -121,6 +121,7 @@ main p {
 .imagen__pagnosotros {
   float: left;
   margin-right: 20px;
+  margin-top: 10px;
 }
 
 .titulo__parrafo {
@@ -151,15 +152,35 @@ main p {
 
 .footer .iconos i {
   padding-left: 10px;
+  width: 10px;
+  height: 10px;
 }
 
 .footer .footer__contacto {
   margin: 5px;
 }
 
+.footer .enlase__contacto {
+  color: darkorange;
+}
+
 .footer .main__imagen2 {
   width: 500px;
   height: 500px;
+}
+
+/*Declarando mapa*/
+/*each y mapas*/
+.btn-facebook {
+  background-color: blue;
+}
+
+.btn-instagram {
+  background-color: blueviolet;
+}
+
+.btn-whatsapp {
+  background-color: green;
 }
 
 /*galeria*/
@@ -224,6 +245,10 @@ main p {
   margin: 0px;
   color: beige;
   font-weight: bolder;
+}
+
+.contenido__principal {
+  height: 100%;
 }
 
 /*contacto*/
