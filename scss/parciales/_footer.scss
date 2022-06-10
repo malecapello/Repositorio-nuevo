@@ -31,7 +31,7 @@ display: flex;
 padding-left: 10px;
 
 &:hover {
--webkit-transform: rotate(360deg);
+transform: rotate(360deg);
 transition: all 2s;
 
 }
@@ -44,7 +44,7 @@ padding-left: 10px;
 
 
 &:hover {
--webkit-transform: rotate(360deg);
+transform: rotate(360deg);
 transition: all 2s;
 
 
@@ -56,7 +56,7 @@ transition: all 2s;
 padding-left: 10px;
 
 &:hover{
--webkit-transform: rotate(360deg);
+transform: rotate(360deg);
 transition: all 2s;
 
 }
