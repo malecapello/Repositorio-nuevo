@@ -1,6 +1,5 @@
 body {
   background-color: darkolivegreen;
-  font-family: 'Bad Script', cursive;
 }
 
 .color {
@@ -267,7 +266,6 @@ main p {
   color: orange;
 }
 
-/*contacto*/
 form {
   display: flex;
   flex-direction: column;
@@ -309,9 +307,6 @@ text {
     display: none;
     display: flex;
     flex-direction: column;
-  }
-  .body {
-    font-family: 'Bad Script', cursive;
   }
 }
 

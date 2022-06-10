@@ -1,41 +1,41 @@
-/*contacto*/
+
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 10px 20px;
-    margin-top: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+box-sizing: border-box;
+padding: 10px 20px;
+margin-top: 20px;
 }
 
 h4 {
-    text-align: center;
-    height: 30px;
-    color: orange;
-    font-size: 20px;
+text-align: center;
+height: 30px;
+color: orange;
+font-size: 20px;
 }
 
 
 .boton__envio {
-    background-color: rosybrown;
-    color: black;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
+background-color: rosybrown;
+color: black;
+border-radius: 5px;
+padding: 10px;
+margin: 10px;
 }
 
 
 
 input,
 text {
-    height: 40px;
-    width: auto;
-    border-radius: 5px;
-    padding: 10px;
+height: 40px;
+width: auto;
+border-radius: 5px;
+padding: 10px;
 
 }
 
 .mb-3 {
-    color: beige;
+color: beige;
 }
