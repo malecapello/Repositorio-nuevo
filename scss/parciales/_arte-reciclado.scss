@@ -1,55 +1,36 @@
-/*preguntas frecuentes*/
+.imagen__tarjeta {
+width: 100%;
+height: 320px;
+border-radius: 20px;
+overflow: hidden;
+object-fit: cover;
+transition: all 400ms ease;
+box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+margin: 0px;
 
-/*.preguntas {
-    color: $color-texto;
-    margin: 0px;
-    font-weight: bold;
 
-.preguntas__respuestas {
-            margin: 0px;
-            color: $color-texto;
-            font-weight: bolder;
-    
-        }
+&:hover {
+box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+transform: translateY(-4%);
 }
 
-.contenido__principal   {
-    height: 100%;
+.row {
+margin-top: 0px;
+margin-left: 0px;
+}
 
-} */
+}
 
 .card {
-    margin: 10px;
+background-color: darkolivegreen;
+border: solid 0px;
+margin: 10px;
 }
 
-.imagen__tarjeta {
-    width: 100%;
-    height: 320px;
-    border-radius: 20px;
-    overflow: hidden;
-    object-fit: cover;
-    transition: all 400ms ease;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-    margin: 0px;
+.card-title {
+color:darksalmon;
 }
 
-/*.imagen__tarjeta:hover {
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-    transform: translateY(-4%);
-} */
-
-.card:hover {
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
-    transform: translateY(-4%);
- 
-}
-
-.card   {
-    background-color: darkolivegreen;
-    border: solid 0px;
-}
-
-.row    {
-    margin-top: 0px;
-    margin-left: 0px;
+.card-text  {
+color:orange;
 }

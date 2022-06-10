@@ -1,49 +1,43 @@
 /*nosotros*/
 
 .parrafo__inicio {
-    font-size: 20px;
-    text-align: center;
-    color: $color-texto;
-
- .titulo {
-            color: khaki;
-            text-align: center;
-            margin: 15px;
-        }
-    
-  .imagen__pagnosotros {
-            float: left;
-            margin-right: 20px;
-            margin-top: 10px;
-           
-            transition: all 400ms ease;
-            object-fit: cover;
-            overflow: hidden;
-            border-radius: 20px;
-            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-            
-    }
-
-  .imagen__pagnosotros:hover    {
-        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
-        transform: translateY(-1%);
-  }
-
-
-  .imagen__contenedor {
-    width: 100%;
-    object-fit: cover;
-  }
-
-.titulo__parrafo {
-    color: $color-texto;
-    font-weight: bold;
-
-
+  font-size: 20px;
+  text-align: center;
+  color: $color-texto;
 }
 
-  
+.titulo {
+  color: khaki;
+  text-align: center;
+  margin: 15px;
+}
 
+.titulo__parrafo {
+  color: $color-texto;
+  font-weight: bold;
+}
+
+.imagen__contenedor {
+  width: 100%;
+  object-fit: cover;
+
+  .imagen__pagnosotros {
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+    transition: all 400ms ease;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    border: 4px;
+
+    &:hover {
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+      transform: translateY(-1%);
+    }
+
+  }
 }
 
 
