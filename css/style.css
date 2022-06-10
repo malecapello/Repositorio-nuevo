@@ -132,7 +132,7 @@ main p {
 }
 
 .footer .facebook:hover {
-  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
   transition: all 2s;
 }
 
@@ -141,7 +141,7 @@ main p {
 }
 
 .footer .instagram:hover {
-  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
   transition: all 2s;
 }
 
@@ -150,7 +150,7 @@ main p {
 }
 
 .footer .whatsapp:hover {
-  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
   transition: all 2s;
 }
 
@@ -309,6 +309,9 @@ text {
     display: none;
     display: flex;
     flex-direction: column;
+  }
+  .body {
+    font-family: 'Bad Script', cursive;
   }
 }
 
