@@ -3,28 +3,35 @@
 .footer {
 width: 100%;
 justify-content: flex-start;
+background: #6A9113;
+background: -webkit-linear-gradient(to right, #141517, #6A9113);
+background: linear-gradient(to right, #141517, #6A9113);
+;
+}
+
 
 .footer__titulo {
-color: $color-texto;
-text-align: end;
+color:orange;
 font-size: 20px;
-
-
-
+margin: 5px;
 }
 
 .footer__subtitulo {
-color: $color-texto;
-font-size: 20px;
+color:chartreuse;
+margin: 5px;
 
+}
 
-
+.logo {
+width: 100px;
+height: 100px;
+float: right;
+margin: 50px 50px 50px 50px;
 }
     
 .redes__sociales {
 display: flex;
-
-
+color:$color-texto;
 }
 
 .facebook {
@@ -66,6 +73,7 @@ transition: all 2s;
 
 .footer__contacto {
 margin: 5px;
+color:orangered;
 
 }
 
@@ -78,9 +86,9 @@ width: 500px;
 height: 500px;
 }
 
-}
 
-/*Declarando mapa*/
+
+/*DECLRANDO MAPAS*/
 
 $redes: (
     facebook: blue,
@@ -88,7 +96,7 @@ $redes: (
     whatsapp: green,
 );
 
-/*each y mapas*/
+/*EACH Y MAPAS*/
 
 @each $clave, $valor in $redes {
     .btn-#{$clave} {

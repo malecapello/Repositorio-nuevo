@@ -109,65 +109,77 @@ main p {
 .footer {
   width: 100%;
   justify-content: flex-start;
+  background: #6A9113;
+  background: -webkit-linear-gradient(to right, #141517, #6A9113);
+  background: linear-gradient(to right, #141517, #6A9113);
 }
 
-.footer .footer__titulo {
-  color: beige;
-  text-align: end;
+.footer__titulo {
+  color: orange;
   font-size: 20px;
-}
-
-.footer .footer__subtitulo {
-  color: beige;
-  font-size: 20px;
-}
-
-.footer .redes__sociales {
-  display: flex;
-}
-
-.footer .facebook {
-  padding-left: 10px;
-}
-
-.footer .facebook:hover {
-  transform: rotate(360deg);
-  transition: all 2s;
-}
-
-.footer .instagram {
-  padding-left: 10px;
-}
-
-.footer .instagram:hover {
-  transform: rotate(360deg);
-  transition: all 2s;
-}
-
-.footer .whatsapp {
-  padding-left: 10px;
-}
-
-.footer .whatsapp:hover {
-  transform: rotate(360deg);
-  transition: all 2s;
-}
-
-.footer .footer__contacto {
   margin: 5px;
 }
 
-.footer .enlase__contacto {
+.footer__subtitulo {
+  color: chartreuse;
+  margin: 5px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin: 50px 50px 50px 50px;
+}
+
+.redes__sociales {
+  display: flex;
+  color: beige;
+}
+
+.facebook {
+  padding-left: 10px;
+}
+
+.facebook:hover {
+  transform: rotate(360deg);
+  transition: all 2s;
+}
+
+.instagram {
+  padding-left: 10px;
+}
+
+.instagram:hover {
+  transform: rotate(360deg);
+  transition: all 2s;
+}
+
+.whatsapp {
+  padding-left: 10px;
+}
+
+.whatsapp:hover {
+  transform: rotate(360deg);
+  transition: all 2s;
+}
+
+.footer__contacto {
+  margin: 5px;
+  color: orangered;
+}
+
+.enlase__contacto {
   color: darkorange;
 }
 
-.footer .main__imagen2 {
+.main__imagen2 {
   width: 500px;
   height: 500px;
 }
 
-/*Declarando mapa*/
-/*each y mapas*/
+/*DECLRANDO MAPAS*/
+/*EACH Y MAPAS*/
 .btn-facebook {
   background-color: blue;
 }
@@ -307,6 +319,9 @@ text {
     display: none;
     display: flex;
     flex-direction: column;
+  }
+  .logo {
+    display: none;
   }
 }
 
