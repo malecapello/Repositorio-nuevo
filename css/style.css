@@ -79,10 +79,13 @@ main p {
 .historia__tati {
   margin: 20px;
   border: solid 2px khaki;
+  border-radius: 7px;
 }
 
 .card-title {
   font-weight: bold;
+  color: orangered;
+  font-family: cursive;
 }
 
 .card-text {
@@ -134,6 +137,9 @@ main p {
   background: #6A9113;
   background: -webkit-linear-gradient(to right, #141517, #6A9113);
   background: linear-gradient(to right, #141517, #6A9113);
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top: 30px;
 }
 
 .footer__titulo {
@@ -195,6 +201,10 @@ main p {
 
 .enlase__contacto {
   color: darkorange;
+}
+
+.enlase__contacto:hover {
+  color: khaki;
 }
 
 .main__imagen2 {

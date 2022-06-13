@@ -7,6 +7,9 @@ background: #6A9113;
 background: -webkit-linear-gradient(to right, #141517, #6A9113);
 background: linear-gradient(to right, #141517, #6A9113);
 ;
+padding-top: 20px;
+padding-bottom: 10px;
+margin-top: 30px;
 }
 
 
@@ -80,7 +83,13 @@ color:orangered;
 
 .enlase__contacto   {
 color:darkorange;
+
+&:hover {
+color: khaki;
 }
+}
+
+
 
 .main__imagen2 {
 width: 500px;
