@@ -1,3 +1,9 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: 0px;
+}
+
 body {
   background-color: darkolivegreen;
 }
@@ -59,6 +65,10 @@ main p {
   color: beige;
 }
 
+.parrafo {
+  font-weight: bold;
+}
+
 .carousel-item img {
   object-fit: cover;
   padding: 20px 20px 20px 20px;
@@ -66,7 +76,19 @@ main p {
   overflow: hidden;
 }
 
-/*nosotros*/
+.historia__tati {
+  margin: 20px;
+  border: solid 2px khaki;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-weight: bold;
+}
+
 .parrafo__inicio {
   font-size: 20px;
   text-align: center;
@@ -123,13 +145,15 @@ main p {
 .footer__subtitulo {
   color: chartreuse;
   margin: 5px;
+  margin-bottom: 0px;
 }
 
 .logo {
   width: 100px;
   height: 100px;
   float: right;
-  margin: 50px 50px 50px 50px;
+  margin: 50px 50px 50px;
+  margin-bottom: 0px;
 }
 
 .redes__sociales {

@@ -1,4 +1,8 @@
-
+*  {
+padding: 0px;
+margin: 0px;
+box-sizing: 0px;
+}
 
 body {
 background-color: $color-principal;
@@ -10,7 +14,6 @@ color: beige !important;
 }
 
 .header {
-
 color: white;
 background: #6A9113;
 background: -webkit-linear-gradient(to right, #141517, #6A9113);
@@ -71,6 +74,10 @@ main p {
 color: $color-texto;
 }
 
+.parrafo{    
+font-weight: bold;
+}
+
 .carousel-item img {
 object-fit:cover;
 padding: 20px 20px 20px 20px;
@@ -78,3 +85,18 @@ height: 45vw;
 overflow: hidden;
 
 }
+
+.historia__tati {
+margin: 20px;
+border: solid 2px khaki;
+}
+
+.card-title{    
+font-weight: bold;
+}
+
+.card-text  {
+font-weight: bold;
+}
+
+
